@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1223EEB22BB1390286005E3F /* Pods_BitcoinTrackerMuirheadV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3782CAED54F4452F6DA4E974 /* Pods_BitcoinTrackerMuirheadV.framework */; };
 		39CAA9232176371A005BEEF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CAA9222176371A005BEEF6 /* AppDelegate.swift */; };
 		39CAA9252176371A005BEEF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CAA9242176371A005BEEF6 /* ViewController.swift */; };
 		39CAA9282176371A005BEEF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CAA9262176371A005BEEF6 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3782CAED54F4452F6DA4E974 /* Pods_BitcoinTrackerMuirheadV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinTrackerMuirheadV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CAA91F2176371A005BEEF6 /* BitcoinTrackerMuirheadV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinTrackerMuirheadV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CAA9222176371A005BEEF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39CAA9242176371A005BEEF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		39CAA9292176371B005BEEF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39CAA92C2176371B005BEEF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39CAA92E2176371B005BEEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C0F9AFC3960AB1E1B72E211 /* Pods-BitcoinTrackerMuirheadV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinTrackerMuirheadV.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinTrackerMuirheadV/Pods-BitcoinTrackerMuirheadV.release.xcconfig"; sourceTree = "<group>"; };
+		C51BC05F2F58976616C09EBC /* Pods-BitcoinTrackerMuirheadV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinTrackerMuirheadV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinTrackerMuirheadV/Pods-BitcoinTrackerMuirheadV.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1223EEB22BB1390286005E3F /* Pods_BitcoinTrackerMuirheadV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				39CAA9212176371A005BEEF6 /* BitcoinTrackerMuirheadV */,
 				39CAA9202176371A005BEEF6 /* Products */,
+				BA299A69199DF13DD17F68A6 /* Pods */,
+				3E323D46CD23AFA9B0AC17ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = BitcoinTrackerMuirheadV;
 			sourceTree = "<group>";
 		};
+		3E323D46CD23AFA9B0AC17ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3782CAED54F4452F6DA4E974 /* Pods_BitcoinTrackerMuirheadV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA299A69199DF13DD17F68A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C51BC05F2F58976616C09EBC /* Pods-BitcoinTrackerMuirheadV.debug.xcconfig */,
+				9C0F9AFC3960AB1E1B72E211 /* Pods-BitcoinTrackerMuirheadV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39CAA9312176371B005BEEF6 /* Build configuration list for PBXNativeTarget "BitcoinTrackerMuirheadV" */;
 			buildPhases = (
+				603936176C1B0D3980284629 /* [CP] Check Pods Manifest.lock */,
 				39CAA91B2176371A005BEEF6 /* Sources */,
 				39CAA91C2176371A005BEEF6 /* Frameworks */,
 				39CAA91D2176371A005BEEF6 /* Resources */,
+				4FBCD9ACE9D517812761D043 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +155,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FBCD9ACE9D517812761D043 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinTrackerMuirheadV/Pods-BitcoinTrackerMuirheadV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinTrackerMuirheadV/Pods-BitcoinTrackerMuirheadV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		603936176C1B0D3980284629 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitcoinTrackerMuirheadV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39CAA91B2176371A005BEEF6 /* Sources */ = {
@@ -278,6 +353,7 @@
 		};
 		39CAA9322176371B005BEEF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51BC05F2F58976616C09EBC /* Pods-BitcoinTrackerMuirheadV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +372,7 @@
 		};
 		39CAA9332176371B005BEEF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C0F9AFC3960AB1E1B72E211 /* Pods-BitcoinTrackerMuirheadV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
